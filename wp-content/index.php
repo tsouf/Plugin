@@ -1,2 +1,5 @@
 <?php
-// Silence is golden.
+echo 'Whoops, something went wrong :(';
+
+
+

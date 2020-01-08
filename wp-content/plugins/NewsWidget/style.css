@@ -1,3 +1,11 @@
-div{
-    font-style: italic !important ;
-}
+.rss-widget {
+    padding: 0 0 14% 0 !important ;
+    font-family: Arial, Helvetica, sans-serif  !important;
+    font-size: large !important;
+    font-style: italic !important;
+  }
+
+  .mypostbox-container{
+    width: 80px;
+  }
+ 

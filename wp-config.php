@@ -83,7 +83,7 @@ define( 'WP_DEBUG_LOG', false);
 define( 'WP_DEBUG_DISPLAY', false);         
 @ini_set( 'display_errors', 0);
 
-define ('DISALLOW_FILE_EDIT', true);		// Deactivate file editing
+//define ('DISALLOW_FILE_EDIT', true);		// Deactivate file editing
 
 /* That's all, stop editing! Happy publishing. */
 

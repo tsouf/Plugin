@@ -321,3 +321,11 @@ require get_template_directory() . '/inc/template-tags.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+add_filter('the_content_feed', 'rss_post_thumbnail');
+function rss_post_thumbnail($content) {
+global $post;
+if( has_post_thumbnail($post->ID) )
+$content = '<p>' . get_the_post_thumbnail($post->ID, 'thumbnail') . '</p>' . $content;
+return $content;
+}
